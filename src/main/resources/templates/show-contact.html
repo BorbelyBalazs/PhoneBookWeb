@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <h1>[[${c.name()}]] kapcsolat</h1>
+  <p data-th-text="${c.email()}"></p>
+  <p data-th-text="${c.tel()}"></p>
+
+  <a href="/home" data-th-href="@{/home}">
+    <button>Vissza</button>
+  </a>
+</body>
+</html>
